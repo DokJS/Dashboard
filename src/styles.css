@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .table--row {
+        @apply flex flex-row transform translate-x-2 text-sm font-bold  py-2 border-b-2 items-center overflow-hidden;
+    }
+
+    .nav--link {
+        @apply flex flex-row items-center px-5 space-x-3;
+    }
+}
